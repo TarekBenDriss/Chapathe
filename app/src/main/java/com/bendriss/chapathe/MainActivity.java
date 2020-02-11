@@ -5,6 +5,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
+import androidx.viewpager.widget.ViewPager;
 
 import android.app.Activity;
 import android.os.Build;
@@ -15,6 +16,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
+
+import com.bendriss.chapathe.adapter.ViewPagerAdapter;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -37,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+
+
+        ViewPager viewPager =  findViewById(R.id.viewPager);
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this);
+        viewPager.setAdapter(viewPagerAdapter);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)

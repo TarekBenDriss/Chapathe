@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#DFB700</color>
+    <color name="colorPrimary">#ffc426</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="black">#1A1A1A</color>
+    <color name="black">#000000</color>
+    <color name="whited">#FFFFFF</color>
+    <color name="blacked">#252525</color>
+    <color name="blacked_transparent">#852E2E2E</color>
+    <color name="blacked2">#151515</color>
 </resources>

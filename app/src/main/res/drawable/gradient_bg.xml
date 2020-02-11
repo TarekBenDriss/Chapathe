@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:angle="90"
+                android:startColor="#252c33"
+                android:endColor="#151616"
+                android:type="linear" />
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+</selector>
+
+
+<!--
+464646
+202020
+
+-->
