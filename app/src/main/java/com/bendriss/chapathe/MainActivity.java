@@ -42,10 +42,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
-        ViewPager viewPager =  findViewById(R.id.viewPager);
+/*
+        ViewPager viewPager =  findViewById(R.id.viewPager2);
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this);
         viewPager.setAdapter(viewPagerAdapter);
+ */
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
